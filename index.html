@@ -3,22 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teste</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Teste JavaScript</title>
+    <style>
+
+         @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        header > h1 {
+            
+            font-family: "Cinzel", serif;
+            font-weight: 800;
+            text-shadow: 2px 1.5px rgba(255, 255, 255, 0.201);
+            text-align: center;
+            background-image: linear-gradient(to top, rgb(77, 47, 10), rgb(209, 157, 101));
+            padding-bottom: 3rem;
+            padding-top: 3rem;
+        }
+
+        header > p {
+            display:flex;
+            justify-content:center;
+            padding: 0.3rem;
+            background-color: rgb(50, 27, 2);
+        }
+
+        header > p > a{
+            display: flex;
+            margin: 0.5rem;
+            text-decoration: none;
+            color: white;
+        }
+
+        a:active{
+            content: '[Link]';
+            color: rgb(162, 68, 68);
+            transform: translate(0.3rem);
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>POUSADA ROSÁRIO À GRAÇA</h1>
+        <h1> Izabel Alves Ferreira</h1>
+        <p>
+            <a href="">Linkedin</a>
+            <a href="">Instagram</a>
+            <a href="">GitHub</a>
+
+        </p>
     </header>
-    <nav>
-        <a href="">Face-Book</a>
-        <a href="">Instagram</a>
-        <a href="">Localização</a>
-    </nav>
-    <main>
-        <div class="img">
-            <img src="imagens/img-370x600.jpg" alt="">
-        </div>
-    </main>
 </body>
 </html>
