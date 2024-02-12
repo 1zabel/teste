@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            position: relative;
+            width: 300px;
+            height: 200px;
+        }
+        .image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: opacity 1s ease-in-out;
+        }
+        .button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="image" src="<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            position: relative;
+            width: 300px;
+            height: 200px;
+        }
+        .image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: opacity 1s ease-in-out;
+        }
+        .button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="image" src="imagens/img-3.jpg" alt="Imagem 1">
+        <img class="image" src="imagens/img-370x600.jpg" alt="Imagem 2" style="opacity: 0;">
+    </div>
+    <button class="button" onclick="alternarImagens()">Próxima imagem</button>
+
+    <script>
+        let indiceAtual = 0;
+        const imagens = document.querySelectorAll('.image');
+
+        function alternarImagens() {
+            const imagemAtual = imagens[indiceAtual];
+            const proximoIndice = (indiceAtual + 1) % imagens.length;
+            const proximaImagem = imagens[proximoIndice];
+
+            imagemAtual.style.opacity = '0';
+            proximaImagem.style.opacity = '1';
+
+            indiceAtual = proximoIndice;
+        }
+    </script>
+</body>
+</html>" alt="Imagem 1">
+        <img class="image" src="imagem2.jpg" alt="Imagem 2" style="opacity: 0;">
+    </div>
+    <button class="button" onclick="alternarImagens()">Próxima imagem</button>
+
+    <script>
+        let indiceAtual = 0;
+        const imagens = document.querySelectorAll('.image');
+
+        function alternarImagens() {
+            const imagemAtual = imagens[indiceAtual];
+            const proximoIndice = (indiceAtual + 1) % imagens.length;
+            const proximaImagem = imagens[proximoIndice];
+
+            imagemAtual.style.opacity = '0';
+            proximaImagem.style.opacity = '1';
+
+            indiceAtual = proximoIndice;
+        }
+    </script>
+</body>
+</html>
